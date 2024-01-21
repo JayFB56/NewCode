@@ -1,2 +1,0 @@
-# NewCode
-Codigos de programacion
