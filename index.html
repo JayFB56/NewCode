@@ -1142,7 +1142,8 @@ body{
    </head>
    <body>
       <header class="cd__intro">
-         <h1> Para ti mi Edna, Betty Boop, Cuatro Ojos</h1>
+         <h1 id="titulo"> Para ti mi Edna, Betty Boop, Cuatro Ojos</h1>
+         <audio id="audio" src="Que-onda-perdida.mp3" preload="auto"></audio>
          <div class="cd__action">
             <a href="https://www.codepel.com/vanilla-javascript/javascript-flower-animation" title="Back to download and tutorial page" class="cd__btn back">Back to Tutorial</a>
          </div>
@@ -1456,10 +1457,7 @@ body{
     </div>
   </div>
 </body>
-         <!-- END EDMO HTML (Happy Coding!)-->
-      </main>
-      <footer class="cd__credit">Author: Md Usman Ansari - Distributed By: <a title="Free web design code & scripts" href="https://www.codepel.com?source=demo-page" target="_blank">CodePel</a></footer>
-      
+      </main>      
       <!-- Script JS -->
       <script>
           onload = () => {
@@ -1467,8 +1465,16 @@ body{
               document.body.classList.remove("not-loaded");
               clearTimeout(c);
             }, 1000);
-          };
+          };            
+          var titulo = document.getElementById('titulo');
+          var audio = document.getElementById('audio');
+          titulo.addEventListener('click', function (){
+              if (audio.paused) {
+                audio.play();
+              } else {
+                audio.pause();
+              }
+            });
       </script>
-      <!--$%analytics%$-->
    </body>
 </html>
