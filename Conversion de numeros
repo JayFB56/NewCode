@@ -1,0 +1,27 @@
+1) Convertir el numero 28 en binario
+28/2 = 0
+14/2 = 0
+7/2 = 1
+3/2 = 1
+1
+
+2) Convertir el numero 41 en binario
+
+41 = 101001	
+
+3) Convertir el numero 235 a octal
+
+235 = 353
+
+4) Convertir el 505 en octal
+
+505 = 771
+
+5) Convertir 456 a hexadecimal
+
+456 = 1C8
+
+6) Convertir en hexadecimal y octal 832
+
+HEXADECIMNAL 832 = 340
+OCTAL 832 = 1500 
